@@ -31,6 +31,7 @@ public class ZeeVideoPlayer: UIView {
         playerLayer?.frame = self.bounds
         playerLayer?.videoGravity = .resizeAspectFill
         self.layer.addSublayer(playerLayer!)
+        play(url: URL(string: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4")!)
     }
     
     func play(url: URL) {
