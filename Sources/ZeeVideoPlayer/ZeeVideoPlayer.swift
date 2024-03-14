@@ -6,7 +6,7 @@ import AVKit
 public class ZeeVideoPlayer: UIView {
     private var playerState: PlayerState = .pause
     public weak var delegate: ZeeVideoPlayerDelegate?
-    var url: URL?{
+    public var url: URL?{
         didSet{
             setupPlayerView()
         }
