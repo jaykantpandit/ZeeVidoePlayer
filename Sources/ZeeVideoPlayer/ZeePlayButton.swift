@@ -6,6 +6,11 @@
 //
 
 import UIKit
+enum PlayerState{
+    case play
+    case pause
+    case replay
+}
 
 public class ZeePlayButton: UIButton {
 
